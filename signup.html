@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="signuppage">
+    
+        <h2>Sign Up</h2>
+
+    <form id="signup">
+
+            <input type="number" id="" placeholder="number" required><br>
+            <input type="text"  id="" placeholder="Username" required><br>
+            <input type="email" id="" placeholder="email" required><br>
+            <input type="password" id="" placeholder="Password" required><BR></BR>
+
+            <button type="submit" >Sign Up</button><br> <br>
+
+            <p>Already have an account?</p><a href="">Login</a>
+
+
+    </form>
+        
+    </div>   
+        
+
+    
+
+
+     <script src="flight.js"></script>
+</body>
+</html>
+
+<!-- --------------------------------- -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup & Login Page</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+  
+            <p>Already have an account? <a href="javascript:void(0);" onclick="toggleForm('login')">Login</a></p>
+        </div>
+
+        <div class="form-container" id="loginForm" style="display: none;">
+            <h2>Login</h2>
+            <form id="login">
+                <input type="text" id="usernameLogin" placeholder="Username" required>
+                <input type="password" id="passwordLogin" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="javascript:void(0);" onclick="toggleForm('signup')">Sign Up</a></p>
+        </div>
+    </div>
+
+    <script src="sign.js"></script>
+</body>
+</html>
+
+
+
+
+

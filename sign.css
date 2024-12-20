@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#signuppage{
+    background-color: rgba(3,93,20,30);
+    margin-top: 10%;
+   margin-left: 25%;
+    width: 50%;
+    height: 50vh;
+    border: 2px solid black;
+}
+#signup{
+    text-align: center;
+    margin-top: 5%;
+} 
+h2{
+    margin-left:44%;
+}
