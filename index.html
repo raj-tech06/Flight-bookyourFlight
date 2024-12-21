@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="flight.css">
     <title>FlightBooking</title>
 </head>
 <body>
     <header>
         <nav id="nav">
-            <img src="img/pngimg.com - plane_PNG101234.png" class="logo">
+           <img src="img/pngimg.com - plane_PNG101234.png"  data-aos="fade-left"  data-aos-delay="800" class="logo" >
         
                     <div id="div1">
                          <li>BestDeals</li>
@@ -27,7 +28,7 @@
 <div id="div3">
     <video src="./img/1.mp4" width="100%" muted autoplay loop></video>
     <h1>Business & First <br> Class Flights <br> for Less</h1>
-    <h5>Fly in comfort & feel the difference</h5>
+    <h5 data-aos="fade-left">Fly in comfort & feel the difference</h5>
 </div>
 
 
@@ -35,6 +36,10 @@
 
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
     <script src="flight.js"></script>
 </body>

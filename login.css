@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+
+#loginpage{
+    margin-top: 8%;
+   margin-left: 25%;
+    width: 50%;
+    height: 50vh;
+    /* border: 2px solid black; */
+}
+#login{
+    text-align: center;
+    margin-top: 5%;
+} 
+#login input{
+    border-radius: 30px;
+    color: rosybrown;
+    width: 55%;
+    height: 33px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* background-color: black; */
+}
+#loginbtn2{
+    width: 90px;
+    border-radius: 30px;
+    font-size: 20px;
+    /* border-top: none; */
+    border-left: none;
+    border-right: none;
+    /* border-bottom: none; */
+    background-color: rgba(63, 228, 17, 0.694);
+    color: white;
+}
+#logintext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 78px;
+    border-style: inset;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* border-bottom: 9cm; */
+    /* color: azure; */
+    margin-left:44%;
+    font-size: 30px;
+}
+#p2{
+    color: black;
+    
+}
+#a2{
+    color: blue;
+}

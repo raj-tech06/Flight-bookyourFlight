@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="sign.css">
     <title>Document</title>
 </head>
@@ -10,63 +11,35 @@
 
     <div id="signuppage">
     
-        <h2>Sign Up</h2>
+        <h2 id="signtext">Sign Up</h2>
 
     <form id="signup">
 
-            <input type="number" id="" placeholder="number" required><br>
-            <input type="text"  id="" placeholder="Username" required><br>
-            <input type="email" id="" placeholder="email" required><br>
-            <input type="password" id="" placeholder="Password" required><BR></BR>
+            <input type="text" id="Signupnumber" placeholder="Number" required><br> <br>
+            <input type="text"  id="Signupusername" placeholder="Username" required><br> <br>
+            <input type="email" id="Signupemail" placeholder="Email" required><br> <br>
+            <input type="password" id="Signuppass" placeholder="Password" required><BR></BR> <br>
 
-            <button type="submit" >Sign Up</button><br> <br>
+            <button type="submit" id="signupbtn1">Sign Up</button><br> <br> <br>
 
-            <p>Already have an account?</p><a href="">Login</a>
+            <p class="p1">Already have an account?</p><a href="login.html" id="a1" >Login</a>
 
 
     </form>
         
     </div>   
+    
         
 
     
 
-
-     <script src="flight.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+     <script src="sign.js"></script>
 </body>
 </html>
 
 <!-- --------------------------------- -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup & Login Page</title>
-    <link rel="stylesheet" href="sign.css">
-</head>
-<body>
-  
-            <p>Already have an account? <a href="javascript:void(0);" onclick="toggleForm('login')">Login</a></p>
-        </div>
-
-        <div class="form-container" id="loginForm" style="display: none;">
-            <h2>Login</h2>
-            <form id="login">
-                <input type="text" id="usernameLogin" placeholder="Username" required>
-                <input type="password" id="passwordLogin" placeholder="Password" required>
-                <button type="submit">Login</button>
-            </form>
-            <p>Don't have an account? <a href="javascript:void(0);" onclick="toggleForm('signup')">Sign Up</a></p>
-        </div>
-    </div>
-
-    <script src="sign.js"></script>
-</body>
-</html>
-
-
-
-
 

@@ -1,55 +1,17 @@
-// // Toggle between Signup and Login form
-// function toggleForm(formType) {
-//     if (formType === 'signup') {
-//         document.getElementById('signupForm').style.display = 'block';
-//         document.getElementById('loginForm').style.display = 'none';
-//     } else if (formType === 'login') {
-//         document.getElementById('loginForm').style.display = 'block';
-//         document.getElementById('signupForm').style.display = 'none';
-//     }
-// }
+// ----Signup form -----
+let a=document.querySelector("#signup")
+a.addEventListener('submit', function(event) {
+    event.preventDefault();
 
-// // Signup form submit
-// document.getElementById('signup').addEventListener('submit', function(event) {
-//     event.preventDefault();
+    let username = document.querySelector("#Signupusername").value;
+    let password = document.querySelector("#Signuppass").value;
+    let email = document.querySelector("#Signupemail").value;
+    let number = document.querySelector("#Signupnumber").value;
 
-//     const username = document.getElementById('usernameSignup').value;
-//     const password = document.getElementById('passwordSignup').value;
+    // ------Save user data in local storage-------- 
+    localStorage.setItem('checkusername', username);
+    localStorage.setItem('checkpassword', password);
 
-//     // Save user data in local storage (for demonstration purposes)
-//     localStorage.setItem('username', username);
-//     localStorage.setItem('password', password);
-
-//     alert('Signup Successful! Please login.');
-//     toggleForm('login');
-// });
-
-// // Login form submit
-// document.getElementById('login').addEventListener('submit', function(event) {
-//     event.preventDefault();
-
-//     const username = document.getElementById('usernameLogin').value;
-//     const password = document.getElementById('passwordLogin').value;
-
-//     const storedUsername = localStorage.getItem('username');
-//     const storedPassword = localStorage.getItem('password');
-
-//     if (username === storedUsername && password === storedPassword) {
-//         alert('Login Successful!');
-//         location.href="index.html"
-//     } else {
-//         alert('Invalid username or password. Please try again.');
-//     }
-// });
-
-
-
-
-
-
-
-
-
-
-
-// -------------------------------
+    // alert('Signup Successful! Please login.');
+    location.href="login.html"
+});
