@@ -4,47 +4,68 @@
     box-sizing: border-box;
 }
 #nav{
-    /* background-color: aqua; */
+    background-color:transparent;
     width: 100%;
     height: 20%;
-    display: flex;
+    display: inline-block;
     align-items: center;
     position: absolute;
     z-index: 999;
 }
 .logo{
     position: absolute;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-left: 1%;
     width: 200px;
     height: 50px;
 }
 
 #div1{
-    
+    /* width: 100%; */
     gap: 100px;
     text-decoration: none;
     list-style: none;
-    margin-top: 30px;
-    margin-left: 26%;
-    display: flex;
+    margin-top: 50px;
+    margin-left: 29%;
+   display: inline-flex;
     font-size: 22px;
     font-weight: bolder;
     color: aliceblue;
 }
-#div2{
- 
-    text-decoration: none;
-    list-style: none;
-    font-size: 20px;
-    font-weight: bolder;
-    margin-top: 30px;
-    margin-left: 24%;
-    display: flex;
-    color: white;
+#div1 li:hover{
+background-color: green;
+color: white;
 }
+#dropdowndiv2{
+    display: none;
+  
+}
+
+#dropdowndiv2 li{
+    list-style: none;
+    margin-top: 10px;
+   
+}
+#div1 li:hover #dropdowndiv2{
+    margin-left: -28px;
+    margin-top: -12px;
+    border: 2px solid wheat;
+    border-top: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    display: block;
+    position: absolute;
+}
+#dropdowndiv2 ul li a{
+   
+    color: aliceblue;
+
+      text-decoration: none;
+   
+}
+
 #div3{
-    width: 100%;
     height: 50rem;
     margin-top: -20px;
 }
@@ -63,7 +84,9 @@ h5{
     font-weight: bolder;
 
 }
+/* ----------------------------------------------- */
 #div4{
+    position: relative;
     margin-top: -3%;
     padding: 5px;
     display: flex;
@@ -82,7 +105,22 @@ h5{
     width: 100%;
     height: 10vh;
 }
+/* #div4 .d1:hover #dropdowndiv2{
+    margin-top: 8%;
+    padding: 10px;
+    background-color: transparent;
+    display: block;
+    position: absolute;
+} */
+
 #btn1{
+    position: relative;
   margin-left: 48%;
   font-size: x-large;
 }
+#div5{
+    /* opacity: 0.7; */
+    display: flex;
+    margin-top: -12%;
+}
+
