@@ -59,7 +59,8 @@ color: white;
 }
 #dropdowndiv2 ul li a{
    
-    color: aliceblue;
+    /* color: aliceblue; */
+    color: black;
 
       text-decoration: none;
    
@@ -85,42 +86,83 @@ h5{
 
 }
 /* ----------------------------------------------- */
-#div4{
-    position: relative;
-    margin-top: -3%;
-    padding: 5px;
-    display: flex;
-    width: 100%;
-    height: 14vh;
-    border: 2px solid black;
-    gap: 12px;
-}
-.d1{
-    display: flex;
-    width: 100%;  
-}
-.d1 input{
-    margin-top: 5px;
-    padding: 10px;
-    width: 100%;
-    height: 10vh;
-}
-/* #div4 .d1:hover #dropdowndiv2{
-    margin-top: 8%;
-    padding: 10px;
-    background-color: transparent;
-    display: block;
-    position: absolute;
-} */
+#div4 video{
 
-#btn1{
-    position: relative;
-  margin-left: 48%;
-  font-size: x-large;
+    /* opacity: 0.4; */
+    margin-top: -6%;
+    width: 100%;
 }
+/* --------------------------------------------------------------- */
 #div5{
-    /* opacity: 0.7; */
+    position: relative;
+    margin-top: -140%;
+    padding: 12px;
+    border-radius: 35px;
     display: flex;
-    margin-top: -12%;
+    width: 95%;
+    height: 14vh;
+    /* border: 2px solid black; */
+    gap: 12px;
+ margin-left: 3%;
+}
+#dropdiv5{
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+}
+#div5btn1{
+    width: 30%;
+    height: 2rem;
+    margin-top: 15px;
+    font-size: x-large;
+    border-radius: 40px;
+    border: none;
+    margin-left: 34%;
+
+}
+/* --------------------------------- */
+#div6 .div6img{
+    margin-top: 50px; 
+    width: 100%;
+    height: 40vh;
+    gap: 18%;
+    display: flex;
+}
+.div6img img{
+    margin: 30px;
+    width: 100%;
+    height: 40vh;
 }
 
+#div7 .div6img{ 
+    /* opacity: 0.6; */
+    margin-top: 70px;
+    width: 100%;
+    /* height: 80vh; */
+    gap: 18%;
+    display: flex;
+}
+#div7 .div6img img{
+    height: 100vh;
+}
+#div8 .div6img{ 
+    margin-top: 30px;
+    width: 100%;
+    height: 40vh;
+    gap: 18%;
+    display: flex;
+}
+
+/* -------------------------------------------- */
+
+#div9{
+    background-color: rgba(118, 102, 98, 0.799);
+    margin-top: 4%;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    border: 2px solid black;
+}
+#div9 img{
+    opacity: 0.4;
+}
