@@ -19,6 +19,10 @@
     width: 200px;
     height: 50px;
 }
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
 
 #div1{
     /* width: 100%; */
@@ -153,10 +157,11 @@ h5{
     display: flex;
 }
 
-/* -------------------------------------------- */
+/* -----------------------------------footer--------- */
 
 #div9{
-    background-color: rgba(118, 102, 98, 0.799);
+    /* background-color: rgba(118, 102, 98, 0.799); */
+    background-color: rgba(12, 12, 12, 0.906);
     margin-top: 4%;
     position: relative;
     width: 100%;
@@ -166,3 +171,47 @@ h5{
 #div9 img{
     opacity: 0.4;
 }
+/* -------------------------------- */
+#div9footer{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 40px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#div9footer a{
+    color: white;
+}
+#div9footer-right{
+    font-size: x-large;
+    margin-top: 8%;
+    position: absolute;
+    margin-left: 85%;
+}
+#div9footer-right p{
+color: white;
+}
+#div9footer-right a{
+    margin-left: 25px;
+}
+#div9footer-center{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 44%;
+}
+#div9footer-mid{
+ 
+    position: absolute;
+    margin-left: 33%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    margin-top: 10%;
+}
+#div9footer-mid p{
+    font-weight: bolder;
+    color: white;
+}
+
+/* ----------------------------------------------------------------------------------------- */
