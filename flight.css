@@ -96,6 +96,96 @@ h5{
     margin-top: -6%;
     width: 100%;
 }
+
+/* --------------------------------------CLOCK---------------------------- */
+
+
+.container{
+    width: 800px;
+    height: 180px;
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: red; */
+
+}
+.clock{
+    width: 100%;
+    height: 100%;
+    background: rgba(235, 0, 255, 0.11);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+
+}
+.container::before{
+    content: '';
+    width: 100px;
+    height: 180px;
+    background: #c3115bc6;
+    border-radius: 5px;
+    position: absolute;
+    left: -50px;
+    top: -0px;
+    z-index: -1;
+}
+.container::after{
+    content: '';
+    width: 100px;
+    height: 180px;
+    background: #e609ba8d;
+    border-radius: 10px;
+    position: absolute;
+    right: -50px;
+    /* bottom:-50px; */
+    top: -0px;
+    z-index: -1;
+}
+.clock span{
+    font-size: 80px;
+    width: 110px;
+    margin-top: -26px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.clock span::after{
+    /* content: 'hours'; */
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#hrs::after{
+    content: 'HOURS';
+}
+#min::after{
+    content: 'MINS';
+}
+#sec::after{
+    content: 'SECOND';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------------------------------------------------------- */
 #div5{
     position: relative;
@@ -115,13 +205,14 @@ h5{
     width: 100%;
 }
 #div5btn1{
+    position: absolute;
     width: 30%;
     height: 2rem;
-    margin-top: 15px;
+    margin-top: 110px;
     font-size: x-large;
     border-radius: 40px;
     border: none;
-    margin-left: 34%;
+    margin-left: 35%;
 
 }
 /* --------------------------------- */
