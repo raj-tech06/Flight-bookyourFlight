@@ -99,17 +99,17 @@ h5{
 /* -----------typejs---------------------------------------------- */
 
 .typejs{ 
-    width: 100%;
-    margin-left: -35%;
-    margin-top: -151%;
+    /* width: 100%; */
+    margin-left: 26%;
+    margin-top: -146%;
     position: absolute;
     background-color: transparent;
-    color: black;
-    /* display: flex; */
+    color: yellow;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-.typejs h5{
+.typejs p{
    
     font-size: 40px;
     font-weight: 400;
@@ -122,7 +122,7 @@ h5{
     width: 800px;
     height: 180px;
     position: absolute;
-    top: 170%;
+    top: 173%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* background: red; */
@@ -216,46 +216,84 @@ h5{
     border: none;
     margin-left: 35%;
 
+
 }
+/* --------------------------idiv---------------------------------- */
+
+#idiv{
+    margin-top: 90px;
+    display: flex;
+    width: 100%;
+    height: 25vh;
+
+}
+#idiv img{
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 30px;
+    width: 100%;
+    height: 25vh;
+}
+
+
+
+
 /* ------------------------div6--------- */
 #div6 .div6img{
-    margin-top: 20px; 
+    margin-top: 10%; 
     width: 100%;
     height: 40vh;
     gap: 18%;
     display: flex;
 }
 .div6img img{
+    border-radius: 50%;
+    /* border-radius: 30px; */
+    margin: 30px;
+    width: 100%;
+    height: 40vh;
+}
+/* ---------------------------div7------------------ */
+
+#div7 .div7img{
+    margin-top: -10%; 
+    width: 40%;
+    height: 100vh;
+
+}
+.div7img img{
+    position: relative;
+    border-radius: 100%;
+    /* margin: 30px; */
+    margin-left: 75%;
+    width: 100%;
+    height: 100vh;
+}
+/* ---------------------------div8------------------ */
+#div8 .div8img{
+    margin-top: -19%; 
+    width: 100%;
+    height: 40vh;
+    gap: 18%;
+    display: flex;
+}
+.div8img img{
+    border-radius: 30px;
     margin: 30px;
     width: 100%;
     height: 40vh;
 }
 
-#div7 .div6img{ 
-    /* opacity: 0.6; */
-    margin-top: 70px;
-    width: 100%;
-    /* height: 80vh; */
-    gap: 18%;
-    display: flex;
-}
-#div7 .div6img img{
-    height: 100vh;
-}
-#div8 .div6img{ 
-    margin-top: 30px;
-    width: 100%;
-    height: 40vh;
-    gap: 18%;
-    display: flex;
-}
+
+
+
 
 /* -----------------------------------footer--------- */
 
 #div9{
     /* background-color: rgba(118, 102, 98, 0.799); */
     background-color: rgba(12, 12, 12, 0.906);
-    margin-top: 4%;
+    margin-top: 13%;
     position: relative;
     width: 100%;
     height: 70vh;
