@@ -1,3 +1,26 @@
+var t = new Typed(".auto-type",{
+    strings:["coading"],
+    typeSpeed:150,
+    vackSpeed:150,
+    loop:true
+
+ })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ------------------------------------CLOCK----------------------------------------
        
 let hrs = document.getElementById("hrs");
