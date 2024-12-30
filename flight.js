@@ -31,3 +31,20 @@ sec.innerHTML = (currentTime.getSeconds()<10?"0":"")+currentTime.getSeconds();
 
 
 
+
+function showDropdown() {
+    let dropdown = document.querySelector("#suggdropdown");
+    dropdown.style.display = "block"; 
+}
+
+
+function selectItem(item) {
+    document.querySelector("#input00").value = item;
+    document.querySelector("#suggdropdown").style.display = "none"; 
+}
+
+let hide=()=>{
+    let input = document.querySelector("#input00")
+let dropdown = document.querySelector("#suggdropdown");
+input.innerHTML=dropdown.style.display="none";
+}
