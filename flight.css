@@ -194,13 +194,13 @@ h5{
     
  
     position: relative;
-    margin-top: -140%;
+    margin-top: -139%;
    /* margin-left: 20%; */
    height: 20vh;
 }
 
 
-.input1{
+.inp1{
     border: none;
     margin-left: 10%;
     width: 18%;
@@ -208,7 +208,7 @@ h5{
     padding: 12px;
     border-radius: 35px;
 }
-.input2{
+.inp2{
     border: none;
     width: 18%;
     margin-left: 31px;
@@ -216,8 +216,7 @@ h5{
     padding: 12px;
     border-radius: 35px;
 }
-.input3{
-    color: white;
+.inp3{
     border: none;
     width: 18%;
     margin-left: 31px;
@@ -225,7 +224,7 @@ h5{
     padding: 12px;
     border-radius: 35px;
 }
-.input4{
+.inp4{
     border: none;
     width: 18%;
     margin-left: 31px;
@@ -237,33 +236,42 @@ h5{
 
 
 .dropdown1{
-    border: none;
-    /* width: 100%; */
-    margin-left:132px;
+    font-size: x-large;
+    padding: 20px;
+    /* padding-top: 20px; */
+    margin-top: -15px;
+    border: 2px solid wheat;
+    border-top: none;
+    margin-left:125px;
     border-radius: 15px;
-    border: 1px solid #ccc;
     position: absolute;
-    background-color: white;
-    width: 209px;
+    /* background-color: white; */
+    width: 229px;
     display: none; 
     z-index: 1;
- 
+  
 }
-
 .dropdown1 div {
     padding: 10px;
     cursor: pointer;
 }
+.dropdown1 div:hover{
+    border-radius: 15px;
+background-color: rgb(220, 196, 166);
+}
 
 .dropdown2{
-    border: none;
-    
-    margin-left:132px;
+    font-size: x-large;
+    padding: 20px;
+    /* padding-top: 20px; */
+    margin-top: -15px;
+    border: 2px solid wheat;
+    border-top: none;
+    margin-left:387px;
     border-radius: 15px;
-    border: 1px solid #ccc;
     position: absolute;
-    background-color: white;
-    width: 209px;
+    /* background-color: rgba(46, 149, 234, 0.598); */
+    width: 229px;
     display: none; 
     z-index: 1;
 }
@@ -272,36 +280,46 @@ h5{
     padding: 10px;
     cursor: pointer;
 }
-
-/* .dropdown3{
-    border: none;
-    width: 100%;
-    margin-left: 73%;
+.dropdown2 div:hover{
     border-radius: 15px;
-    border: 1px solid #ccc;
+    background-color: rgb(220, 196, 166);
+}
+
+
+.dropdown3{
+    padding: 20px;
+    font-size: x-large;
+    margin-top: -15px;
+    border: 2px solid wheat;
+    border-top: none;
+   
+    margin-left: 912px;
+    border-radius: 15px;
+  
     position: absolute;
-    background-color: white;
-    width: 209px;
+    /* background-color: rgba(64, 111, 150, 0.598); */
+    width: 229px;
     display: none; 
     z-index: 1;
+ 
 }
 
 .dropdown3 div {
     padding: 10px;
     cursor: pointer;
-}  */
+}
+.dropdown3 div:hover{
+    border-radius: 15px;
+    background-color: rgb(220, 196, 166);
+}
 
-/* .dropdown2 div:hover {
-    margin-left: 29%;
-    background-color: red;
-} */
 
 
 
 #div5btn1{
     position: relative;
     width: 30%;
-    height: 2rem;
+    height: 3rem;
     margin-top: 8%;
     font-size: x-large;
     border-radius: 40px;
