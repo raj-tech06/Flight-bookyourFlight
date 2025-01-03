@@ -10,7 +10,7 @@ document.querySelector("#login").addEventListener('submit', function(event) {
 
     if (username === storedUsername && password === storedPassword) {
         // alert('Login Successful!');
-        location.href="index.html"
+        location.href="index.html";
     } else {
         alert('Invalid username or password. Please try again.');
     }

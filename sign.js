@@ -5,8 +5,8 @@ a.addEventListener('submit', function(event) {
 
     let username = document.querySelector("#Signupusername").value;
     let password = document.querySelector("#Signuppass").value;
-    let email = document.querySelector("#Signupemail").value;
-    let number = document.querySelector("#Signupnumber").value;
+    // let email = document.querySelector("#Signupemail").value;
+    // let number = document.querySelector("#Signupnumber").value;
 
     // ------Save user data in local storage-------- 
     localStorage.setItem('checkusername', username);

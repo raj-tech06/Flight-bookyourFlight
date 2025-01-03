@@ -1,7 +1,7 @@
 var t = new Typed(".auto-type",{
     strings:["Fly In Comfort And Feel The Difference"],
     typeSpeed:150,
-    vackSpeed:150,
+    backSpeed:150,
     loop:true
 
  })
